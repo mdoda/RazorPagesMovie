@@ -11,6 +11,7 @@ namespace RazorPagesMovie.Models
     {
         public int ID { get; set; }
 
+
         [StringLength(60, MinimumLength = 3)]
         [Required]
         public string Title { get; set; }
